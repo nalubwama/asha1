@@ -1,0 +1,107 @@
+body{
+	background-color:#DCDCDC;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;			
+	}
+
+.signup{
+	color: #ffffff;
+	background-color: #6495ed;
+	height: 80px; 
+	text-align: left;
+	font-size: 20px;
+	padding-top:1px;
+	padding-bottom:15px;
+	padding-left:30px;
+}
+	
+.signup input[type="submit"]{
+	font-size: 13px;
+	display: inline-block;
+	background: #228B22;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	margin: 0px;
+	text-decoration: none;
+	padding:7px 12px;
+}
+
+.box{
+	height:100%;
+	width:100%;
+	background-color:#DCDCDC;
+}
+
+.logp{
+	background-color:#fff;
+	text-align:center;
+	height:95%;
+	width:95%;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-32.5%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.logp input[type="text"]{
+	border-color: grey;
+	outline: none;
+	height: 40px;
+	background-color: #fff;
+	font-size: 15px;
+	width:30%;
+	padding:10px;
+	border-radius: 5px;
+}
+
+.logp input[type="password"]{
+	padding: 10px;
+	background-color: #fff;
+	font-size: 16px;
+	width: 30%;
+	height: 40px;
+	outline: none;
+	border-color:  #6495ed;;
+	border-radius: 5px;
+	font-size:15px;
+}
+	
+	
+.logp input[type="submit"]{
+	outline: none;
+	height: 50px;
+	background:  #4169E1;;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 5px;
+	width:30%;
+}
+
+.logp a{
+	display: inline-block;
+	background: #228B22;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	margin: 0px;
+	text-decoration: none;
+	padding: 10px 20px;
+	
+}
+
+.logp a:hover{
+	background: #FFB6C1;
+	color: #fff;
+}
+
+.p{
+	color: #6A5ACD;
+	font-size: 13px;
+}
